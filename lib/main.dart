@@ -49,7 +49,7 @@ class Landing_page extends StatelessWidget {
             ),
             Expanded(
               child: Middle(),
-              flex: 10,
+              flex: 5,
             ),
             Expanded(
               flex: 2,

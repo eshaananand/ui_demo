@@ -16,9 +16,9 @@ class Middle extends StatelessWidget {
           body: SafeArea(
             child: Column(
               children: [
-                SizedBox(height: 450,),
+                SizedBox(height: 320,),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(20.0),
                   child: Container(
                     height: 130,
                     width: 400,
@@ -43,12 +43,12 @@ class Middle extends StatelessWidget {
                               color: Colors.white),
                             ),
                             SizedBox(height: 5,),
-                            Text("21 yrs",style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold,),),
+                            Text("21 y.o",style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold,),),
                             Text("UX Designer",style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold,),),
-                            Text("2 km Away",style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold,),)
+                            Text("2 km away",style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold,),)
                           ],
                         ),
-                        SizedBox(width: 150,),
+                        SizedBox(width: 100,),
                         Container(
                           height: 50,
                           width: 70,
